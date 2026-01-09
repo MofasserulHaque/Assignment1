@@ -1,6 +1,7 @@
 *{
-    margin: 0 auto;
+    margin: 7px;
     max-width: 1600px;
+    font-family: inria sans,sans-serif;
 }
 nav img{
     width: 139px;
@@ -10,6 +11,10 @@ nav{
    
     height: 91px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 nav ul{
     display: flex;
@@ -30,8 +35,43 @@ nav button{
 }
 .first-content{
     background-image: url('../assets/hero-bg.png');
-    align-items: center;
+    max-width: 1600px;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px ;
 }
-#content-h1{
-    align:center;
+.btn1{
+    background-color:white;
+    color: #30B868;
+    padding: 3px 5px;
+    border-radius: 50px;
+}
+.btn2{
+    background-color: #30B868;
+    color: white;
+   text-align: center;  
+   padding: 8px;
+   border-radius: 5px;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 13px;
+}
+
+.btn3{
+    background: none;
+    padding: 8px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
