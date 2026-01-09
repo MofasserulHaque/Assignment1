@@ -1,0 +1,37 @@
+*{
+    margin: 0 auto;
+    max-width: 1600px;
+}
+nav img{
+    width: 139px;
+    height: 60px;
+}
+nav{
+   
+    height: 91px;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    gap: 35px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+nav li{
+   list-style: none;
+}
+nav button{
+    width:164px;
+    height: 44px;
+    background-color: #30B868;
+    border-radius: 5px;
+}
+.first-content{
+    background-image: url('../assets/hero-bg.png');
+    align-items: center;
+}
+#content-h1{
+    align:center;
+}
